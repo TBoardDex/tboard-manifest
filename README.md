@@ -19,3 +19,7 @@ cd tboard-v1.0.0
 repo init -u https://github.com/TBoardDex/tboard-manifest.git -b master -m v1.0.0.xml
 repo sync -j4
 ```
+
+## Release Firmware
+
+固件下载地址：https://github.com/TBoardDex/tboard-manifest/releases
