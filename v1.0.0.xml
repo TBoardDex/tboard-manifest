@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/TBoardDex/" />
+  <default sync-j="4" remote="github" revision="refs/tags/v1.0.0" />
+  <project name="debian11" path="debian11" />
+  <project name="device_rockchip" path="device/rockchip">
+    <linkfile src="common/scripts/build.sh" dest="build.sh" />
+    <linkfile src="common/Makefile" dest="Makefile" />
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh" />
+  </project>
+  <project name="rockchip-kernel-5.10" path="kernel" />
+  <project name="prebuilts_gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" />
+  <project name="prebuilts_gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" />
+  <project name="rkbin" path="rkbin" />
+  <project name="tools" path="tools" />
+  <project name="u-boot" path="u-boot" />
+  <project name="repo" path="repo" />
+  <project name="ubuntu22.04" path="ubuntu22.04" />
+</manifest>
